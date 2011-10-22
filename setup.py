@@ -17,7 +17,7 @@ except ImportError:
         except:
             install_requires.append('simplejson')
 
-version = __import__('geopy').get_version()
+version = '0.95.pre'
 
 setup(name='geopy',
     version=version,
